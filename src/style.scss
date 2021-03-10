@@ -1,0 +1,32 @@
+html,
+body { 
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+}
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 8px rgba(#333, 0.125);
+
+  canvas { height: 22px; }
+
+  .header { 
+    height: 22px; 
+    background: #101217;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .footer { height: 40px; }
+}
